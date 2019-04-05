@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8"/>
+    <title>starta - Hemsida</title>
+    <link rel="stylesheet" href="css/startsida.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+
+    <body class="startpage">
+      <form action="/action_page.php">
+        <div class="passwerd">
+          Email: <input type="text" name="email"><br>
+          Password: <input type="password" name="pwd" maxlength="8"><br>
+          <input type="submit">
+        </div>
+      </form>
+      <header>
+      <div class="temp">
+        <div class="hwrap">
+          <h1>Hugos</h1>
+          <h1><b class="vardelos"> &nbsp;och Jacobs&nbsp; </b> </h1>
+          <h1>Hemsida</h1>
+
+        </div>
+      </div>
+    <nav class="navbar">
+  <ul class="navbar-nav" style="list-style-type:none">
+
+    <li class="nav-item">
+      <a class="nav-link" href="musik.html">Musik</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="spel.html">Spel</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="film.html">Film</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="3col.html">Övrigt</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="lösen.html">lösen</a>
+    </li>
+  </ul>
+
+</nav>
+
+      </header>
+    </body>
+    <footer>
+      <h2 class="Slide-center">Bilder</h2>
+
+<div class="Slide" style="max-width:500px">
+  <img class="mySlides" src="https://cdn.myanimelist.net/images/anime/9/87066l.jpg" style="width:50%">
+  <img class="mySlides" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Persona_5_cover_art.jpg/220px-Persona_5_cover_art.jpg" style="width:50%">
+  <img class="mySlides" src="https://data.whicdn.com/images/189453032/large.jpg" style="width:100%">
+  <img class="mySlides" src="https://cdn.shopify.com/s/files/1/0799/0083/products/Various_RobinHo_CoverAr_3000DPI300RGB1000100551_grande.jpg?v=1466727715" style="width:50%">
+  <img class="mySlides" src="https://i.ebayimg.com/images/g/fPgAAOSw3gJZJyTX/s-l300.png" style="width:100%">
+  <img class="mySlides" src="https://images.g2a.com/newlayout/600x351/1x1x0/7f04df747d8e/59e5fb145bafe3233e6ee122" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+    </footer>
+</html>

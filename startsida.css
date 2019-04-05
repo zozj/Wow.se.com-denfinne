@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+html
+{
+    /* margin: 2%; */
+    background: url(https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/54417778_845289462477402_6753731365952290816_n.jpg?_nc_cat=106&_nc_ht=scontent-arn2-1.xx&oh=50887a540451f0d47b49ae337fb8e407&oe=5D07201A);
+    background-size: auto;
+}
+
+body
+{
+  font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 100%;
+  /* background-color: white; */
+}
+.hwrap
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  header
+  {
+    text-align: center;
+    color: white;
+  }
+  .temp
+  {
+    text-align: center;
+    color: white;
+    outline-style: outset;
+    outline-color: white;
+    outline-width: 5px;
+    background-color: black;
+    width: 800px;
+    margin: 30px auto;
+  }
+
+  /* .vardelos
+  {
+    text-decoration: line-through;
+    text-decoration-color: red;
+  } */
+
+  .startpage .logo
+  {
+    width: auto;
+    height: auto;
+  }
+
+.navbar
+{
+  margin-right: 30px;
+  display: flex;
+  width: auto;
+}
+ul
+{
+  display: flex;
+    margin: auto;
+}
+li
+{
+  margin: 65px;
+}
+
+form
+{
+  float: right;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+.passwerd
+{
+  width: auto;
+  height: auto;
+}
+
+.nav-item
+{
+  outline-style: outset;
+  outline-color: white;
+  outline-width: 5px;
+  font-size: 36px;
+}
+.nav-link
+{
+  color: white;
+  background-color: black;
+}
+a:hover
+{
+  color: #FF0066;
+}
+
+.Slide-center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  outline-style: outset;
+  outline-color: white;
+  outline-width: 5px;
+  background-color: black;
+  width: 100px;
+  margin: 20px auto;
+}
+.Slide
+{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 510px;
+}
