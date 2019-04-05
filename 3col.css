@@ -15,7 +15,7 @@ html, body {
 /*formatering för sidans body element = bakgrundsfärg*/
 body {
   /* background-color: #EEF2F8; */
-  background-image: url("../img/uvafin.jpg");
+  background-image: url("uvafin.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
