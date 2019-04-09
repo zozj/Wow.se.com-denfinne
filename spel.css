@@ -51,7 +51,7 @@ body
 
 .navbar
 {
-  margin-left: auto;
+  margin: auto;
   display: flex;
   width: auto;
 }
