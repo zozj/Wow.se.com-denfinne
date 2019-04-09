@@ -1,0 +1,146 @@
+/*CSS dokument*/
+
+/* selektorn * formaterar alla element på sidan */
+* {
+  margin: 0;
+}
+
+/*formatering för html och body elementen*/
+html, body {
+  height: 100%;
+  background-image: url("red-black.jpg");
+}
+
+/*formatering för sidans body element = bakgrundsfärg*/
+body {
+  background-color: #EEF2F8;
+  background-image: url("red-black.jpg");
+}
+
+/*formatering för textstycken*/
+p {
+  font-family: Calibri, Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/*formatering för rubrik h1*/
+h1 {
+  font-family: Cambria, Calibri, Verdana, Arial, sans-serif;
+  font-size: 27px;
+  color: black;
+  text-align: center;
+}
+
+/*formatering för textlänkar*/
+a {
+  font-family: Calibri, Verdana, Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/*formatering för textlänkar när användaren för pekaren över texten*/
+a:hover {
+  color: #FF0066;
+}
+
+/*formatering för behållare som innehåller alla sidans element*/
+.wrapper {
+  width:1010px;
+  min-height: 100%;
+  padding: 0px;
+  margin: auto;
+  background-color: #F6F9F9;
+  color: #000000;
+  border-left: 1px solid #4D94B8;
+  border-right: 1px solid #4D94B8;
+  background-image: url("");
+}
+
+/*formatering för klassen 'header' - sidhuvud*/
+.header {
+  width: 1000px;
+  padding: 20px 0 20px 0;
+  margin: auto;
+  background-color: #F6F9F);
+  color: #000000;
+}
+
+/*formatering för huvudmeny och textlänkarna*/
+.mainmenu {
+  width: 1000px;
+  padding: 5px;
+  margin: auto;
+  background-color: #E4ECEE;
+  color: #000000;
+}
+
+.mainmenu ul {
+  list-style: none;
+}
+
+.mainmenu li {
+  display: inline;
+}
+
+.mainmenu a {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: Cambria, Calibri, Verdana, Arial, sans-serif;
+  font-size: 18px;
+  color: #0099CC;
+}
+
+.mainmenu a:hover {
+  color: #FF0066;
+}
+
+/*formatering för 2 kolumn layout*/
+.wrapper_2col {
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  padding: 0px;
+  background-color: #F6F9F9;
+  color: #000000;
+  margin: 0 auto -4em;
+}
+
+/*formatering för vänster kolumn*/
+.leftcol {
+  float: left;
+  width: 400px;
+  background-color: #F6F9F9;
+  padding: 20px;
+}
+
+/*formatering för höger kolumn*/
+.rightcol {
+  float: right;
+  width: 530px;
+  background-color: #F6F9F9;
+  padding: 20px;
+}
+
+/*formatering för bilden i höger kolumnens textstycke*/
+.rightcol p img {
+  float:right;
+  border: 1px dotted black;
+  margin: 10px 0px 15px 20px;
+}
+
+/*formatering för sidfot*/
+.footer {
+  width: 1000px;
+  padding: 5px;
+  margin: 0px;
+  background-color: #E4ECEE;
+  color: #000000;
+  text-align: center;
+}
+
+/*formatering för sidfot och klassen push som trycker ner sidfoten på sidan*/
+.footer, .push {
+  height: 4em;
+  clear: both;
+}
